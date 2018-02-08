@@ -2,12 +2,30 @@ package exp_algo;
 
 /**
  * @author anirban
- *
+ * 
+ * 
+ *arr[] = 64 25 12 22 11
+
+// Find the minimum element in arr[0...4]
+// and place it at beginning
+11 25 12 22 64
+
+// Find the minimum element in arr[1...4]
+// and place it at beginning of arr[1...4]
+11 12 25 22 64
+
+// Find the minimum element in arr[2...4]
+// and place it at beginning of arr[2...4]
+11 12 22 25 64
+
+// Find the minimum element in arr[3...4]
+// and place it at beginning of arr[3...4]
+11 12 22 25 64 
  */
 public class SelectionSort {
 
 	public static void main(String[] args) {
-		int[] unsortedArray = { 4, 5, 3 ,99,22,88,7};
+		int[] unsortedArray = { 64, 25, 12, 22, 11};
 		for (int i : unsortedArray) {
 			System.out.println("unsorted array---" + i);
 		}
