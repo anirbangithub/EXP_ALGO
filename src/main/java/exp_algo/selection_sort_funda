@@ -1,0 +1,10 @@
+funda of selection sort is to find the largest no. in an array & put it to the right side or @ highest index
+
+to achieve that we run 2 loops--
+
+1 will come highest to least(n->0)
+2nd one will go least to highest(0->n)
+
+child loop will search for the highest no. in the unsorted portion of the array & will put it to the highest location of the unsorted Array
+so this time largest no. is stored on the right side &
+ now we can reduce the the size of unsorted array & perform the same operation in reduced size for loop
