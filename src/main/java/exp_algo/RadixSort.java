@@ -8,12 +8,6 @@ public class RadixSort {
 	public static void main(String[] args) {
 		int[] babluInput = { 2115, 8228, 1841, 4244, 5115, 2613, 8236, 9129 };
 
-		/*
-		 * int[] countArray = new int[10]; for (int value : babluInput) {
-		 * countArray[getDigit(2, value, 10)]++; } for (int i = 0; i < 10; i++) {
-		 * 
-		 * }
-		 */
 		System.out.println("before sorting::" + Arrays.toString(babluInput));
 		radixSortAll(babluInput, 4, 10);
 		System.out.println("after sorting::" + Arrays.toString(babluInput));
